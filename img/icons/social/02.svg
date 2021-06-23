@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" width="29" height="29">
+	<title>Contact</title>
+	<defs>
+		<image  width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAKhQTFRFHh4eHh4eHh4e////Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eDEEZIwAAADh0Uk5TleVnAPb/xGGtPh4wFSw2CyBXSAjJktyv9MAXy5Pe0NtysxnqnnnPpXcBpHjWm4Cuwd+ZzYMCxWqwS/gMAAAAa0lEQVR4nEXJRxaCQBQF0Y/PJxhBSWZQlCSpjfvfmQPbQ83uKRFjgH8y5KiHaY17TKYzzBe2s1y5EI8+AoZrcrOVHfc4kMeIjPU54ZzwonEFUmYaOYqUpcbth4o1EjYoArbSqTse6onXW32+4tYJXSwSlZgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: #1e1e1e;stroke-width: 2 } 
+	</style>
+	<g id="Contact">
+		<g id="Text">
+			<g id="icon">
+				<path id="base copy 3" class="shp0" d="M14.47 0.12C22.24 0.12 28.53 6.46 28.53 14.27C28.53 22.09 22.24 28.42 14.47 28.42C6.71 28.42 0.41 22.09 0.41 14.27C0.41 6.46 6.71 0.12 14.47 0.12Z" />
+				<use id="Layer 28 copy 4" href="#img1" x="9" y="8" />
+			</g>
+		</g>
+	</g>
+</svg>

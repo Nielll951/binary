@@ -25,4 +25,10 @@ $('.filter__item').click(function(event) {
     return false;
 });
 
+// PARALLAX
+$(window).scroll(function(event) {
+    let s=0-$(this).scrollTop()/2;
+    $('.mainblock').css('transform','translate3d(0, '+s+'px, 0)');
+});
+
 

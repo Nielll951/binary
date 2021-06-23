@@ -164,6 +164,10 @@ h6 {
   flex: 1 1 auto;
   position: relative;
   background-image: url("../img/mainblock/bg.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -879,6 +883,49 @@ h6 {
 }
 .social__item {
   margin-right: 15px;
+}
+
+.footer {
+  background-color: #3c3c3c;
+  padding: 45px 0;
+  position: relative;
+  z-index: 5;
+}
+.footer__body {
+  text-align: center;
+}
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.footer__menu {
+  text-align: center;
+}
+.footer__list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.footer__list li {
+  margin: 0 15px;
+}
+.footer__link {
+  font-size: 14px;
+  color: #a4a4a4;
+  font-weight: 400;
+}
+.footer__link:hover {
+  color: #fff;
+}
+.footer__text {
+  color: #6c6c6c;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -25,30 +25,4 @@ $('.filter__item').click(function(event) {
     return false;
 });
 
-// FORMS
-// function forms(){
-//     $('input,textarea').focus(function(){
-//         if($(this).val() == $(this).attr('data-value')){
-//                 $(this).addClass('focus');
-//                 $(this).parent().addClass('focus');
-//                 $(this).removeClass('err');
-//                 $(this).parent().removeClass('err');
-//             if($(this).attr('data-type')=='pass'){
-//                 $(this).attr('type','password');
-//             };
-//             $(this).val('');
-//         };
-//     });
-// };
 
-
-// $(window).resize(function(event) {
-//     mainblock();
-// });
-// function mainblock(){
-//     var h=$(window).outerHeight();
-//     $('.mainblock').css({
-//         minHeight: h
-//     });
-// }
-//     mainblock();

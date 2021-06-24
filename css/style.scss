@@ -98,14 +98,6 @@ textarea {
 	padding: 0 20px;
 	background-color: #f8f7f7;
 	border-top: 1px solid #000;
-
-	// &.focus {
-	// 	border-top: 1px solid blue;
-	// }
-
-	// &.err {
-	// 	border-top: 1px solid red;
-	// }
 }
 
 textarea.input {
@@ -159,13 +151,6 @@ $md4: 479.98;
 	}
 }
 
-// .container__mainblock {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: center;
-// 	align-items: center;
-// }
-
 .mainblock {
 	flex: 1 1 auto;
 	position: relative;
@@ -177,10 +162,9 @@ $md4: 479.98;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
-	// align-items: center;
 	text-align: center;
 	max-height: 1080px;
-	padding: 50px 0; // none	
+	padding: 0;
 
 	&__content {
 		display: flex;
@@ -199,8 +183,16 @@ $md4: 479.98;
 			align-items: center;
 		}
 
+		@media (max-width: $md2+px) {
+			margin-top: 90px;
+		}
+
+		@media (max-width: $md3+px) {
+			margin-top: 50px;
+		}
+
 		@media (max-width: $md4+px) {
-			margin-top: 70px;
+			margin-top: 40px;
 			margin-bottom: -24px;
 		}
 	}
@@ -211,7 +203,20 @@ $md4: 479.98;
 		color: #fff;
 		position: relative;
 		padding-bottom: 45px;
-		margin: 0px 0 210px 0;
+		margin: 50px 0 210px 0;
+
+		@media (max-width: $md2+px) {
+			margin-bottom: 150px;
+		}
+
+		@media (max-width: $md3+px) {
+			margin: 35px 0 150px 0;
+		}
+
+		@media (max-width: $md4+px) {
+			margin: 25px 0 60px 0;
+			padding-bottom: 30px;
+		}
 
 		&::after {
 			content: '';
@@ -238,12 +243,20 @@ $md4: 479.98;
 			font-size: 25px;
 			line-height: 30px;
 		}
+
+		@media (max-width: $md4+px) {
+			font-size: 22px;
+		}
 	}
 
 	&__subtitle {
 		font-size: 26px;
 		font-weight: 400;
 		letter-spacing: 4.15px;
+
+		@media (max-width: $md4+px) {
+			font-size: 23px;
+		}
 	}
 
 	&__footer {
@@ -267,6 +280,10 @@ $md4: 479.98;
 		-moz-animation: arrow 2s infinite ease;
 		-o-animation: arrow 2s infinite ease;
 		position: relative;
+
+		@media (max-width: $md2+px) {
+			margin-bottom: 50px;
+		}
 	}
 
 	&__image {
@@ -429,10 +446,8 @@ $md4: 479.98;
 	}
 
 	@media (max-width: $md4+px) {
-		padding: 22px 0 12px 0;
+		padding: 18px 0 8px 0;
 	}
-
-	&__items {}
 
 	&__list {
 		@include flexbox();
@@ -609,6 +624,10 @@ $md4: 479.98;
 		padding: 50px 0 40px 0;
 	}
 
+	@media (max-width: $md4+px) {
+		padding: 40px 0 30px 0;
+	}
+
 	&__header-block {
 		margin-bottom: 50px;
 
@@ -649,6 +668,10 @@ $md4: 479.98;
 			flex: 1 1 100%;
 			margin-bottom: 20px;
 		}
+
+		@media (max-width: $md3+px) {
+			margin-bottom: 10px;
+		}
 	}
 
 	&__item {
@@ -664,11 +687,9 @@ $md4: 479.98;
 		padding-top: 35px;
 
 		@media (max-width: $md3+px) {
-			padding-top: 15px;
+			padding-top: 20px;
 		}
 	}
-
-	&__btn {}
 }
 
 .filter {
@@ -701,6 +722,10 @@ $md4: 479.98;
 	background: url('../img/partners/bg.jpg') center / cover no-repeat;
 	padding: 100px 0 70px 0;
 
+	@media (max-width: $md2+px) {
+		padding: 80px 0 50px 0;
+	}
+
 	@media (max-width: $md3+px) {
 		padding: 30px 0 0 0;
 	}
@@ -731,6 +756,10 @@ $md4: 479.98;
 
 		@media (max-width: $md3+px) {
 			padding: 0 30px;
+		}
+
+		@media (max-width: $md4+px) {
+			margin-bottom: 50px;
 		}
 	}
 }
@@ -841,6 +870,7 @@ $md4: 479.98;
 
 		@media (max-width: $md4+px) {
 			display: block;
+			margin: 0 -15px 20px -15px;
 		}
 	}
 
@@ -849,13 +879,14 @@ $md4: 479.98;
 		padding: 0 15px;
 
 		@media (max-width: $md4+px) {
-			&:first-child {
-				margin-bottom: 30px;
-			}
+
+			// &:first-child {
+			// 	margin-bottom: 30px;
+			// }
+
+			margin-bottom: 20px;
 		}
 	}
-
-	&__input {}
 
 	&__label {
 		font-size: 14px;
@@ -892,6 +923,10 @@ $md4: 479.98;
 	position: relative;
 	z-index: 5;
 
+	@media (max-width: $md4+px) {
+		padding: 35px 0;
+	}
+
 	&__body {
 		text-align: center;
 	}
@@ -899,6 +934,10 @@ $md4: 479.98;
 	&__logo {
 		display: inline-block;
 		margin-bottom: 40px;
+
+		@media (max-width: $md4+px) {
+			margin-bottom: 22px;
+		}
 	}
 
 	&__menu {
@@ -910,6 +949,10 @@ $md4: 479.98;
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 35px;
+
+		@media (max-width: $md4+px) {
+			margin-bottom: 27px;
+		}
 
 		li {
 			margin: 0 15px;
